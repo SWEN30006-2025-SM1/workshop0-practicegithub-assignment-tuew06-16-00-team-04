@@ -11,11 +11,11 @@ public class CalculatorTest {
     }
     @Test
     public void testAddBasic() {
-        Assert.assertEquals(4, calculator.add(1, 3));
+        Assert.assertEquals(5, calculator.add(2, 3));
     }
     @Test
     public void testMinusBasic() {
-        Assert.assertEquals(10, calculator.minus(15, 5));
+        Assert.assertEquals(9, calculator.minus(15, 6));
     }
     @Test
     public void testMultiplyBasic() {
